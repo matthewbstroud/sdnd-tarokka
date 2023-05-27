@@ -1,0 +1,113 @@
+{
+	"id": "sdnd-tarokka",
+	"title": "SDnD Tarokka Automation",
+	"description": "Automation helpers for doing Tarokka readings for Curse of Strahd.",
+	"version": "#{VERSION}#",
+	"library": "false",
+	"socket": true,
+	"manifestPlusVersion": "1.2.0",
+	"compatibility": {
+		"minimum": 10,
+		"verified": 10,
+		"maximum": 10
+	},
+	"authors": [
+		{
+			"name": "Stroud",
+			"url": "https://github.com/matthewbstroud/sdnd-tarokka",
+			"discord": "CaiusMartius@1144"
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+				"compatibility": {
+					"verified": "2.1.4"
+				}
+			}
+		],
+		"requires": [
+			{
+				"id": "lib-wrapper",
+				"type": "module",
+				"manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+				"compatibility": {
+					"verified": "1.12.12.0"
+				}
+			},
+			{
+				"id": "warpgate",
+				"type": "module",
+				"manifest": "https://github.com/trioderegion/warpgate/releases/latest/download/module.json",
+				"compatibility": {
+					"verified": "1.16.0"
+				}
+			},
+			{
+				"id": "compendium-folders",
+				"type": "module",
+				"manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json",
+				"compatibility": {
+					"verified": "2.5.7"
+				}
+			},
+			{
+				"id": "socketlib",
+				"type": "module",
+				"manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/master/module.json",
+				"compatibility": {
+					"verified": "1.0.12"
+				}
+			},
+			{
+				"id": "monks-active-tiles",
+				"type": "module",
+				"manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+				"compatibility": {
+					"verified": "10.15"
+				}
+			}
+		],
+		"optional": [
+		]
+	},
+	"esmodules": [
+		"scripts/module.js"
+	],
+	"styles": [
+		"styles/module.css"
+	],
+	"packs": [
+		{
+			"name": "SDND-Tarokka-Cards",
+			"label": "SDND Tarokka Cards",
+			"path": "packs/sdnd-tarokka-cards.db",
+			"type": "Cards",
+			"private": true,
+			"module": "sdnd-tarokka"
+		},
+		{
+			"name": "SDND-Tarokka-RollTables",
+			"label": "SDND Tarokka Roll Tables",
+			"path": "packs/sdnd-tarokka-rolltables.db",
+			"type": "RollTable",
+			"private": true,
+			"module": "sdnd-tarokka"
+		}
+	],
+	"changelog": "https://github.com/matthewbstroud/sdnd-tarokka/blob/master/CHANGELOG.md",
+	"url": "#{URL}#",
+	"manifest": "#{MANIFEST}#",
+	"download": "#{DOWNLOAD}#",
+	"license": "LICENSE",
+	"readme": "README.md",
+	"media": [
+		{
+			"type": "icon",
+			"url": ""
+		}
+	]
+}
