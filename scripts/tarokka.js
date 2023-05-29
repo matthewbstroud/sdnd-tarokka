@@ -49,7 +49,6 @@ async function ensureMacro(macroName, packId, parentFolderName) {
 }
 
 async function getFolder(folderName, parentFolderID) {
-    debugger;
     let parts = folderName.split('/');
     if (parts.length > 1) {
         let parentFolderName = parts[0];
