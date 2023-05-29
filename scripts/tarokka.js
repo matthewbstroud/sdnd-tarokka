@@ -49,7 +49,6 @@ async function ensureMacro(macroName, packId, parentFolderName) {
 }
 
 async function getFolder(folderName, parentFolderID) {
-    debugger;
     let parts = folderName.split('/');
     if (parts.length > 1) {
         let parentFolderName = parts[0];
@@ -396,6 +395,111 @@ async function _readHand(card_slot, card) {
     });
 }
 
+async function createCard(template, card, cardBackImage, readCardMacro) {
+    const CARD_WIDTH = 200;
+    const CARD_HEIGHT = 300;
+    let tileImageFront = card.faces[card.face].img;
+
+    let cardData = {
+        "width": CARD_WIDTH,
+        "height": CARD_HEIGHT,
+        "x": template.x,
+        "y": template.y,
+        "z": 100,
+        "rotation": 0,
+        "alpha": 1,
+        "hidden": false,
+        "locked": false,
+        "overhead": false,
+        "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+        },
+        "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+        },
+        "flags": {
+            "dnd5e-helpers": {
+                "coverLevel": 0
+            },
+            "betterroofs": {
+                "brMode": false,
+                "manualPoly": "",
+                "occlusionLinkId": "",
+                "occlusionLinkSource": false
+            },
+            "monks-active-tiles": {
+                "active": true,
+                "record": false,
+                "restriction": "all",
+                "controlled": "gm",
+                "trigger": [
+                    "dblclick"
+                ],
+                "allowpaused": false,
+                "usealpha": false,
+                "pointer": false,
+                "pertoken": false,
+                "minrequired": 0,
+                "chance": 100,
+                "fileindex": 0,
+                "actions": [
+                    {
+                        "action": "tileimage",
+                        "data": {
+                            "entity": "",
+                            "select": "next",
+                            "transition": "blur",
+                            "speed": 1,
+                            "loop": 1
+                        },
+                        "id": `${randomID()}`
+                    },
+                    {
+                        "action": "runmacro",
+                        "data": {
+                            "entity": {
+                                "id": `Macro.${readCardMacro.id}`,
+                                "name": `${readCardMacro.name}`
+                            },
+                            "args": `"${template.name}" "${card.name}"`,
+                            "runasgm": "gm"
+                        },
+                        "id": `${randomID()}`
+                    }
+                ],
+                "files": [
+                    {
+                        "id": `${randomID()}`,
+                        "name": cardBackImage,
+                        "selected": true
+                    },
+                    {
+                        "id": `${randomID()}`,
+                        "name": tileImageFront,
+                        "selected": false
+                    }
+                ]
+            }
+        },
+        "texture": {
+            "src": cardBackImage,
+            "tint": null,
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+        },
+        "roof": false
+    };
+
+    return await canvas.scene.createEmbeddedDocuments("Tile", [cardData]);
+}
+
 async function _dealTarokka() {
     if (!game.user.isGM) {
         ui.notifications.notify(`Can only be run by the gamemaster!`);
@@ -410,8 +514,7 @@ async function _dealTarokka() {
     const HIGH_DECK_NAME = "Tarokka - High Deck";
     const COMMON_DECK_NAME = "Tarokka - Common Deck";
     const DST_CARD_PILE_NAME = "Tarokka Reading";
-    const CARD_WIDTH = 200;
-    const CARD_HEIGHT = 300;
+    
     const CARD_DATA = [
         {
             "name": "TomeOfStrahd",
@@ -440,137 +543,6 @@ async function _dealTarokka() {
         },
     ];
 
-    async function createCard(template, card, cardBackImage) {
-        let tileImageFront = card.faces[card.face].img;
-
-        let cardData = {
-            "width": CARD_WIDTH,
-            "height": CARD_HEIGHT,
-            "x": template.x,
-            "y": template.y,
-            "z": 100,
-            "rotation": 0,
-            "alpha": 1,
-            "hidden": false,
-            "locked": false,
-            "overhead": false,
-            "occlusion": {
-                "mode": 1,
-                "alpha": 0,
-                "radius": null
-            },
-            "video": {
-                "loop": true,
-                "autoplay": true,
-                "volume": 0
-            },
-            "flags": {
-                "dnd5e-helpers": {
-                    "coverLevel": 0
-                },
-                "betterroofs": {
-                    "brMode": false,
-                    "manualPoly": "",
-                    "occlusionLinkId": "",
-                    "occlusionLinkSource": false
-                },
-                "monks-active-tiles": {
-                    "active": true,
-                    "record": false,
-                    "restriction": "all",
-                    "controlled": "gm",
-                    "trigger": [
-                        "dblclick"
-                    ],
-                    "allowpaused": false,
-                    "usealpha": false,
-                    "pointer": false,
-                    "pertoken": false,
-                    "minrequired": 0,
-                    "chance": 100,
-                    "fileindex": 0,
-                    "actions": [
-
-                    ],
-                    "files": []
-                }
-            },
-            "texture": {
-                "src": cardBackImage,
-                "tint": null,
-                "scaleX": 1,
-                "scaleY": 1,
-                "offsetX": 0,
-                "offsetY": 0,
-                "rotation": 0
-            },
-            "roof": false
-        };
-
-
-        let newCard = await canvas.scene.createEmbeddedDocuments("Tile", [cardData]);
-        if (readCardMacro && newCard.length == 1) {
-            let monksData = {
-                "monks-active-tiles": {
-                    "active": true,
-                    "record": false,
-                    "restriction": "all",
-                    "controlled": "gm",
-                    "trigger": [
-                        "dblclick"
-                    ],
-                    "allowpaused": false,
-                    "usealpha": false,
-                    "pointer": false,
-                    "pertoken": false,
-                    "minrequired": 0,
-                    "chance": 100,
-                    "fileindex": 0,
-                    "actions": [
-                        {
-                            "action": "tileimage",
-                            "data": {
-                                "entity": "",
-                                "select": "next",
-                                "transition": "blur",
-                                "speed": 1,
-                                "loop": 1
-                            },
-                            "id": `${randomID()}`
-                        },
-                        {
-                            "action": "runmacro",
-                            "data": {
-                                "entity": {
-                                    "id": `Macro.${readCardMacro.id}`,
-                                    "name": `${readCardMacro.name}`
-                                },
-                                "args": `"${template.name}" "${card.name}"`,
-                                "runasgm": "gm"
-                            },
-                            "id": `${randomID()}`
-                        }
-                    ],
-                    "files": [
-                        {
-                            "id": `${randomID()}`,
-                            "name": cardBackImage,
-                            "selected": true
-                        },
-                        {
-                            "id": `${randomID()}`,
-                            "name": tileImageFront,
-                            "selected": false
-                        }
-                    ]
-                }
-            };
-            await newCard[0].update({ "flags": monksData });
-        }
-
-    }
-
-
     // get reference to src/dst cards objects
     const high_cards = await ensureCards(HIGH_DECK_NAME, constants.PACKS.COMPENDIUMS.CARD.TAROKKA, constants.FOLDERS.CARDS.TAROKKA);
     const common_cards = await ensureCards(COMMON_DECK_NAME, constants.PACKS.COMPENDIUMS.CARD.TAROKKA, constants.FOLDERS.CARDS.TAROKKA);
@@ -595,6 +567,6 @@ async function _dealTarokka() {
 
     for (var i = 0; i < 5; i++) {
         let cardIndex = dst_cards.cards.size - (5 - i);
-        createCard(CARD_DATA[i], dst_cards.cards.contents[[cardIndex]], card_back);
+        createCard(CARD_DATA[i], dst_cards.cards.contents[[cardIndex]], card_back, readCardMacro);
     }
 }
