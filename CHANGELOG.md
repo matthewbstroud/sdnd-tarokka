@@ -1,10 +1,7 @@
 # v1.0.1
-# New Features
-- Write a journal entries for the reading.
-  - One for the GM
-  - One for the players as a handout.
 # Bug Fixes
-- Remove debugger statement
+- Remove debugger statement.
+- Create cards in a single API call.
 
 # v1.0.0: First test release
 - Includes Tarokka Deck.
