@@ -90,6 +90,14 @@
 			"module": "sdnd-tarokka"
 		},
 		{
+			"name": "SDND-Tarokka-Macros",
+			"label": "SDND Tarokka Macros",
+			"path": "packs/sdnd-tarokka-macros.db",
+			"type": "Macro",
+			"private": true,
+			"module": "sdnd-tarokka"
+		},
+		{
 			"name": "SDND-Tarokka-Scenes",
 			"label": "SDND Tarokka Scenes",
 			"path": "packs/sdnd-tarokka-scenes.db",
