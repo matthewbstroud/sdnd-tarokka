@@ -1,5 +1,6 @@
 import { contants } from './constants.js';
 import { moduleSettings } from './settings.js';
+import { tarokka } from './tarokka.js';
 
 export let socket;
 Hooks.once('init', async function() {
@@ -15,4 +16,5 @@ Hooks.once('ready', async function() {
 	
 });
 globalThis['sdndTarokka'] = {
+	tarokka
 }

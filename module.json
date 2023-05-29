@@ -90,10 +90,10 @@
 			"module": "sdnd-tarokka"
 		},
 		{
-			"name": "SDND-Tarokka-RollTables",
-			"label": "SDND Tarokka Roll Tables",
-			"path": "packs/sdnd-tarokka-rolltables.db",
-			"type": "RollTable",
+			"name": "SDND-Tarokka-Scenes",
+			"label": "SDND Tarokka Scenes",
+			"path": "packs/sdnd-tarokka-scenes.db",
+			"type": "Scene",
 			"private": true,
 			"module": "sdnd-tarokka"
 		}
