@@ -1,3 +1,6 @@
+# v11.1.6
+# Bug Fixes
+- Fix images.
 # v11.1.5
 # Bug Fixes
 - Fix packaging error.

@@ -1,7 +1,5 @@
 import { promises as fs } from "fs";
 const replacements = [
-    ['https://assets.forge-vtt.com/634b24b96df3a5a10e8ccd71/SFX/', 'modules/sdnd-strahd-adv/SFX/'],
-    ['"/custom_icons/Fireplace_Icon.webp"', '"modules/stroud-dnd-helpers/images/icons/Fireplace_Icon.webp"']
 ];
 const MODULE_ID = process.cwd();
 const desiredThumbPath = `modules/${process.env.npm_package_name}/images/thumbs/`;
