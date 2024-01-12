@@ -1,3 +1,6 @@
+# v11.1.7
+# Bug Fixes
+- Fix thumbnails.
 # v11.1.6
 # Bug Fixes
 - Fix images.
