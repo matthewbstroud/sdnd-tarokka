@@ -1,3 +1,6 @@
+# v11.1.3
+# Bug Fixes
+- Fix depenencies
 # v11.1.2
 # Bug Fixes
 - Fix Compendium Folders
