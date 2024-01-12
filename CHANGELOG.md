@@ -1,3 +1,9 @@
+# v11.1.2
+# Bug Fixes
+- Fix Compendium Folders
+# v11.1.1
+# Bug Fixes
+- fix build issues
 # v11.1.0
 # New Features
 - Foundry v11 support
