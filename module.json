@@ -9,7 +9,7 @@
 	"compatibility": {
 		"minimum": 10,
 		"verified": 10,
-		"maximum": 10
+		"maximum": 11
 	},
 	"authors": [
 		{
@@ -86,7 +86,11 @@
 			"label": "SDND Tarokka Cards",
 			"path": "packs/sdnd-tarokka-cards.db",
 			"type": "Cards",
-			"private": true,
+			"ownership": {
+				"PLAYER": "LIMITED",
+				"ASSISTANT": "OWNER",
+				"GAMEMASTER": "OWNER"
+			},
 			"module": "sdnd-tarokka"
 		},
 		{
@@ -94,7 +98,11 @@
 			"label": "SDND Tarokka Macros",
 			"path": "packs/sdnd-tarokka-macros.db",
 			"type": "Macro",
-			"private": true,
+			"ownership": {
+				"PLAYER": "LIMITED",
+				"ASSISTANT": "OWNER",
+				"GAMEMASTER": "OWNER"
+			},
 			"module": "sdnd-tarokka"
 		},
 		{
@@ -102,8 +110,23 @@
 			"label": "SDND Tarokka Scenes",
 			"path": "packs/sdnd-tarokka-scenes.db",
 			"type": "Scene",
-			"private": true,
+			"ownership": {
+				"PLAYER": "LIMITED",
+				"ASSISTANT": "OWNER",
+				"GAMEMASTER": "OWNER"
+			},
 			"module": "sdnd-tarokka"
+		}
+	],
+	"packFolders": [
+		{
+			"name": "SDND - Tarokka",
+			"sorting": "a",
+			"color": "#ff0000",
+			"packs": [
+				"SDND-Tarokka-Cards"
+			],
+			"folders": []
 		}
 	],
 	"changelog": "https://github.com/matthewbstroud/sdnd-tarokka/blob/master/CHANGELOG.md",

@@ -1,8 +1,10 @@
+# v11.1.0
+# New Features
+- Foundry v11 support
 # v1.0.1
 # Bug Fixes
 - Remove debugger statement.
 - Create cards in a single API call.
-
 # v1.0.0: First test release
 - Includes Tarokka Deck.
 - Includes two Tarokka Table Scenes.

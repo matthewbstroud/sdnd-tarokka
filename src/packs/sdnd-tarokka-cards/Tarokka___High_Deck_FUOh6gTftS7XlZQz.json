@@ -1,0 +1,468 @@
+{
+  "name": "Tarokka - High Deck",
+  "type": "deck",
+  "description": "",
+  "img": "modules/sdnd-tarokka/images/tarokkaDeck/TarokkaDeckBack.webp",
+  "cards": [
+    {
+      "_id": "j12b8RhFhyMXIvum",
+      "name": "Beast",
+      "description": "",
+      "type": "base",
+      "suit": "Coins",
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "faces": [
+        {
+          "name": "",
+          "img": "modules/sdnd-tarokka/images/tarokkaDeck/dnd_tarokka_beast.png",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "rotation": 0,
+      "sort": 5,
+      "flags": {},
+      "value": 11,
+      "system": {},
+      "width": null,
+      "height": null,
+      "_key": "!cards.cards!FUOh6gTftS7XlZQz.j12b8RhFhyMXIvum",
+      "cards": []
+    },
+    {
+      "_id": "ssUlFMrXG4LFWkuX",
+      "name": "Broken One",
+      "description": "",
+      "type": "base",
+      "suit": "Coins",
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "faces": [
+        {
+          "name": "",
+          "img": "modules/sdnd-tarokka/images/tarokkaDeck/dnd_tarokka_brokenone.png",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "rotation": 0,
+      "sort": 6,
+      "flags": {},
+      "value": 13,
+      "system": {},
+      "width": null,
+      "height": null,
+      "_key": "!cards.cards!FUOh6gTftS7XlZQz.ssUlFMrXG4LFWkuX",
+      "cards": []
+    },
+    {
+      "_id": "XjVsS99DqvQii2Qp",
+      "name": "Tempter",
+      "description": "",
+      "type": "base",
+      "suit": "Coins",
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "faces": [
+        {
+          "name": "",
+          "img": "modules/sdnd-tarokka/images/tarokkaDeck/dnd_tarokka_tempter.png",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "rotation": 0,
+      "sort": 9,
+      "flags": {},
+      "value": 12,
+      "system": {},
+      "width": null,
+      "height": null,
+      "_key": "!cards.cards!FUOh6gTftS7XlZQz.XjVsS99DqvQii2Qp",
+      "cards": []
+    },
+    {
+      "_id": "VlELUm26Qq7Un9qC",
+      "name": "Ghost",
+      "description": "",
+      "type": "base",
+      "suit": "Glyphs",
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "faces": [
+        {
+          "name": "",
+          "img": "modules/sdnd-tarokka/images/tarokkaDeck/dnd_tarokka_ghost.png",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "rotation": 0,
+      "sort": 8,
+      "flags": {},
+      "value": 13,
+      "system": {},
+      "width": null,
+      "height": null,
+      "_key": "!cards.cards!FUOh6gTftS7XlZQz.VlELUm26Qq7Un9qC",
+      "cards": []
+    },
+    {
+      "_id": "9C7tuM8OcVLqUUri",
+      "name": "Innocent",
+      "description": "",
+      "type": "base",
+      "suit": "Glyphs",
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "faces": [
+        {
+          "name": "",
+          "img": "modules/sdnd-tarokka/images/tarokkaDeck/dnd_tarokka_innocent.png",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "rotation": 0,
+      "sort": 7,
+      "flags": {},
+      "value": 12,
+      "system": {},
+      "width": null,
+      "height": null,
+      "_key": "!cards.cards!FUOh6gTftS7XlZQz.9C7tuM8OcVLqUUri",
+      "cards": []
+    },
+    {
+      "_id": "dVPBhg1P8c53z1dg",
+      "name": "Marionette",
+      "description": "",
+      "type": "base",
+      "suit": "Glyphs",
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "faces": [
+        {
+          "name": "",
+          "img": "modules/sdnd-tarokka/images/tarokkaDeck/dnd_tarokka_marionette.png",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "rotation": 0,
+      "sort": 2,
+      "flags": {},
+      "value": 11,
+      "system": {},
+      "width": null,
+      "height": null,
+      "_key": "!cards.cards!FUOh6gTftS7XlZQz.dVPBhg1P8c53z1dg",
+      "cards": []
+    },
+    {
+      "_id": "8v1T8WiECSN4j2i9",
+      "name": "Raven",
+      "description": "",
+      "type": "base",
+      "suit": "Stars",
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "faces": [
+        {
+          "name": "",
+          "img": "modules/sdnd-tarokka/images/tarokkaDeck/dnd_tarokka_raven.png",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "rotation": 0,
+      "sort": 1,
+      "flags": {},
+      "value": 12,
+      "system": {},
+      "width": null,
+      "height": null,
+      "_key": "!cards.cards!FUOh6gTftS7XlZQz.8v1T8WiECSN4j2i9",
+      "cards": []
+    },
+    {
+      "_id": "40mgxvFrowS4iv6f",
+      "name": "Donjon",
+      "description": "",
+      "type": "base",
+      "suit": "Stars",
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "faces": [
+        {
+          "name": "",
+          "img": "modules/sdnd-tarokka/images/tarokkaDeck/dnd_tarokka_donjon.png",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "rotation": 0,
+      "sort": 3,
+      "flags": {},
+      "value": 13,
+      "system": {},
+      "width": null,
+      "height": null,
+      "_key": "!cards.cards!FUOh6gTftS7XlZQz.40mgxvFrowS4iv6f",
+      "cards": []
+    },
+    {
+      "_id": "58ZCviRCj7krPNuE",
+      "name": "Horseman",
+      "description": "",
+      "type": "base",
+      "suit": "Joker",
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "faces": [
+        {
+          "name": "",
+          "img": "modules/sdnd-tarokka/images/tarokkaDeck/dnd_tarokka_horseman.png",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "rotation": 0,
+      "sort": 11,
+      "flags": {},
+      "value": 2,
+      "system": {},
+      "width": null,
+      "height": null,
+      "_key": "!cards.cards!FUOh6gTftS7XlZQz.58ZCviRCj7krPNuE",
+      "cards": []
+    },
+    {
+      "_id": "mwUezkGdzJnlRjDk",
+      "name": "Executioner",
+      "description": "",
+      "type": "base",
+      "suit": "Swords",
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "faces": [
+        {
+          "name": "",
+          "img": "modules/sdnd-tarokka/images/tarokkaDeck/dnd_tarokka_executioner.png",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "value": 11,
+      "system": {},
+      "width": null,
+      "height": null,
+      "_key": "!cards.cards!FUOh6gTftS7XlZQz.mwUezkGdzJnlRjDk",
+      "cards": []
+    },
+    {
+      "_id": "835pvNmlgmq8legL",
+      "name": "Mists",
+      "description": "",
+      "type": "base",
+      "suit": "Swords",
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "faces": [
+        {
+          "name": "",
+          "img": "modules/sdnd-tarokka/images/tarokkaDeck/dnd_tarokka_mists.png",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "rotation": 0,
+      "sort": 10,
+      "flags": {},
+      "value": 12,
+      "system": {},
+      "width": null,
+      "height": null,
+      "_key": "!cards.cards!FUOh6gTftS7XlZQz.835pvNmlgmq8legL",
+      "cards": []
+    },
+    {
+      "_id": "iDPDEAghbwBzWNSg",
+      "name": "Darklord",
+      "description": "",
+      "type": "base",
+      "suit": "Swords",
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "faces": [
+        {
+          "name": "",
+          "img": "modules/sdnd-tarokka/images/tarokkaDeck/dnd_tarokka_darklord.png",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "rotation": 0,
+      "sort": 13,
+      "flags": {},
+      "value": 13,
+      "system": {},
+      "width": null,
+      "height": null,
+      "_key": "!cards.cards!FUOh6gTftS7XlZQz.iDPDEAghbwBzWNSg",
+      "cards": []
+    },
+    {
+      "_id": "o487PLjigpX4gnC9",
+      "name": "Seer",
+      "description": "",
+      "type": "base",
+      "suit": "Stars",
+      "value": 11,
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "faces": [
+        {
+          "name": "",
+          "img": "modules/sdnd-tarokka/images/tarokkaDeck/dnd_tarokka_seer.png",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": "7FCxHIjgP2KlawXg",
+      "rotation": 0,
+      "sort": 12,
+      "flags": {},
+      "system": {},
+      "width": null,
+      "height": null,
+      "_key": "!cards.cards!FUOh6gTftS7XlZQz.o487PLjigpX4gnC9",
+      "cards": []
+    },
+    {
+      "_id": "iDpzFhx76epewgof",
+      "name": "Artifact",
+      "description": "",
+      "type": "base",
+      "suit": "Joker",
+      "value": 1,
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "faces": [
+        {
+          "name": "",
+          "img": "modules/sdnd-tarokka/images/tarokkaDeck/dnd_tarokka_artifact.png",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": "7FCxHIjgP2KlawXg",
+      "rotation": 0,
+      "sort": 4,
+      "flags": {},
+      "system": {},
+      "width": null,
+      "height": null,
+      "_key": "!cards.cards!FUOh6gTftS7XlZQz.iDpzFhx76epewgof",
+      "cards": []
+    }
+  ],
+  "width": 714,
+  "height": 1000,
+  "rotation": 0,
+  "displayCount": false,
+  "flags": {
+    "core": {
+      "sourceId": "Cards.T1shob0hZPN6dnAm"
+    }
+  },
+  "system": {},
+  "ownership": {
+    "default": 0,
+    "6yhz13iFYYklKtgA": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1685306195983,
+    "modifiedTime": 1685306195983,
+    "lastModifiedBy": "6yhz13iFYYklKtgA"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "FUOh6gTftS7XlZQz",
+  "_key": "!cards!FUOh6gTftS7XlZQz"
+}

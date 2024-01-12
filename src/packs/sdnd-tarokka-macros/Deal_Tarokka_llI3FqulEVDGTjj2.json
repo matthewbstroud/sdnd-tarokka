@@ -1,0 +1,36 @@
+{
+  "name": "Deal Tarokka",
+  "type": "script",
+  "author": "6yhz13iFYYklKtgA",
+  "img": "TarokaDeck/TarokkaDeckBack.webp",
+  "scope": "global",
+  "command": "await sdndTarokka.tarokka.dealTarokka();",
+  "flags": {
+    "advanced-macros": {
+      "runAsGM": false,
+      "runForSpecificUser": ""
+    },
+    "combat-utility-belt": {
+      "macroTrigger": ""
+    },
+    "core": {
+      "sourceId": "Macro.LJIpKwknQduuTIbF"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "6yhz13iFYYklKtgA": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1685330356918,
+    "modifiedTime": 1685330477192,
+    "lastModifiedBy": "6yhz13iFYYklKtgA"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "llI3FqulEVDGTjj2",
+  "_key": "!macros!llI3FqulEVDGTjj2"
+}

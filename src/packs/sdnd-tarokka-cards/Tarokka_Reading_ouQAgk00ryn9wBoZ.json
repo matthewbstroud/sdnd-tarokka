@@ -1,0 +1,33 @@
+{
+  "name": "Tarokka Reading",
+  "type": "deck",
+  "description": "",
+  "img": "modules/sdnd-tarokka/images/tarokkaDeck/TarokkaDeckBack.webp",
+  "system": {},
+  "cards": [],
+  "width": null,
+  "height": null,
+  "rotation": 0,
+  "displayCount": false,
+  "ownership": {
+    "default": 0,
+    "6yhz13iFYYklKtgA": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Cards.XzwYQp6cLrDBWb2q"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1685307319202,
+    "modifiedTime": 1685307439686,
+    "lastModifiedBy": "6yhz13iFYYklKtgA"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "ouQAgk00ryn9wBoZ",
+  "_key": "!cards!ouQAgk00ryn9wBoZ"
+}
