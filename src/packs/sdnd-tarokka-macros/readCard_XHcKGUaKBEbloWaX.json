@@ -1,0 +1,36 @@
+{
+  "name": "readCard",
+  "type": "script",
+  "author": "6yhz13iFYYklKtgA",
+  "img": "modules/sdnd-tarokka/images/tarokkaDeck/TarokaCardBack.png",
+  "scope": "global",
+  "command": "var card_slot = args[0];\nvar card = args[1];\n\nawait sdndTarokka.tarokka.readHand(card_slot, card);",
+  "flags": {
+    "advanced-macros": {
+      "runAsGM": false,
+      "runForSpecificUser": ""
+    },
+    "combat-utility-belt": {
+      "macroTrigger": ""
+    },
+    "core": {
+      "sourceId": "Macro.rprgKHZjMVx0ncVv"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "6yhz13iFYYklKtgA": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1685330428416,
+    "modifiedTime": 1685330428416,
+    "lastModifiedBy": "6yhz13iFYYklKtgA"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "XHcKGUaKBEbloWaX",
+  "_key": "!macros!XHcKGUaKBEbloWaX"
+}
