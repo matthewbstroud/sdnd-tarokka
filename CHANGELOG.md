@@ -1,3 +1,6 @@
+# v11.1.8
+# Bug Fixes
+- Fix Shepherd card.
 # v11.1.7
 # Bug Fixes
 - Fix thumbnails.

@@ -4,7 +4,7 @@
   "navOrder": 1000000,
   "navName": "",
   "foreground": null,
-  "thumb": "modules/sdnd-tarokka/images/thumbs/e9076d4e760ed9717219b07e3d4be95c.png",
+  "thumb": "base64data/Scene/e9076d4e760ed9717219b07e3d4be95c.png",
   "width": 2000,
   "height": 1368,
   "padding": 0.1,
@@ -57,7 +57,7 @@
     "6yhz13iFYYklKtgA": 3
   },
   "background": {
-    "src": "modules/sdnd-tarokka/images/tables/MadamEvaTable.webp",
+    "src": "modules/curse_of_strahd/Images/MadamEvaTable.webp",
     "offsetX": 0,
     "offsetY": 0,
     "scaleX": 1,

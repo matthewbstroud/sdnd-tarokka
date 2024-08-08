@@ -5,7 +5,6 @@
 	"version": "#{VERSION}#",
 	"library": "false",
 	"socket": true,
-	"manifestPlusVersion": "1.2.0",
 	"compatibility": {
 		"minimum": 11,
 		"verified": 11,
@@ -40,21 +39,21 @@
 				}
 			},
 			{
-				"id": "warpgate",
-				"type": "module",
-				"manifest": "https://github.com/trioderegion/warpgate/releases/latest/download/module.json",
-				"compatibility": {
-					"minimum": "1.19.2",
-					"verified": "1.19.2"
-				}
-			},
-			{
 				"id": "socketlib",
 				"type": "module",
 				"manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/master/module.json",
 				"compatibility": {
 					"minimum": "1.0.13",
 					"verified": "1.0.13"
+				}
+			},
+			{
+				"id": "stroud-dnd-helpers",
+				"type": "module",
+				"manifest": "https://github.com/matthewbstroud/stroud-dnd-helpers/releases/latest/download/module.json",
+				"comaptibility": {
+					"mininum": "11.4.0",
+					"verified": "11.4.0"
 				}
 			},
 			{

@@ -4,7 +4,7 @@
   "navOrder": 0,
   "navName": "",
   "foreground": null,
-  "thumb": "modules/sdnd-tarokka/images/thumbs/09a33adb966f3326485135595e4d06fc.png",
+  "thumb": "base64data/Scene/09a33adb966f3326485135595e4d06fc.png",
   "width": 2000,
   "height": 1368,
   "padding": 0.1,
@@ -51,7 +51,7 @@
     "6yhz13iFYYklKtgA": 3
   },
   "background": {
-    "src": "modules/sdnd-tarokka/images/tables/TarokkaTable.webp",
+    "src": "modules/curse_of_strahd/Images/TarokkaTable.webp",
     "offsetX": 0,
     "offsetY": 0,
     "scaleX": 1,

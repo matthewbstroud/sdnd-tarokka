@@ -2,7 +2,7 @@
   "name": "Deal Tarokka",
   "type": "script",
   "author": "6yhz13iFYYklKtgA",
-  "img": "modules/sdnd-tarokka/images/tarokkaDeck/TarokkaDeckBack.webp",
+  "img": "TarokaDeck/TarokkaDeckBack.webp",
   "scope": "global",
   "command": "await sdndTarokka.tarokka.dealTarokka();",
   "flags": {
