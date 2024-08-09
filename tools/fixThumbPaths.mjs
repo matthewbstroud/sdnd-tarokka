@@ -1,5 +1,6 @@
 import { promises as fs } from "fs";
 const replacements = [
+    ['modules/curse_of_strahd/Images/', 'modules/sdnd-tarokka/images/tables/']
 ];
 const MODULE_ID = process.cwd();
 const desiredThumbPath = `modules/${process.env.npm_package_name}/images/thumbs/`;
