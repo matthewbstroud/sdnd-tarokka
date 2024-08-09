@@ -6,6 +6,6 @@ Provides premade decks and scenes to easily do randomized Tarokka readings in yo
 | --- | --- |  
 | Monk's Active Tile Triggers | 10.15 |  
 | Socket Lib | 1.0.12 |  
-| Warpgate | 1.16.0 |  
+| Stroud's DnD Helpers | 11.4.0 |  
   
 

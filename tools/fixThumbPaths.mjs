@@ -1,5 +1,7 @@
 import { promises as fs } from "fs";
 const replacements = [
+    ['modules/curse_of_strahd/Images/', 'modules/sdnd-tarokka/images/tables/'],
+    ['TarokaDeck/TarokkaDeckBack.webp', 'modules/sdnd-tarokka/images/tarokkaDeck/TarokkaDeckBack.webp']
 ];
 const MODULE_ID = process.cwd();
 const desiredThumbPath = `modules/${process.env.npm_package_name}/images/thumbs/`;
@@ -37,27 +39,21 @@ for (const pack of packs) {
                 console.log(`   New Path: '${newPath}'`);
                 scene.thumb = newPath;
             }
-            try {
-                await fs.writeFile(filePath, JSON.stringify(fileObject, null, 2));
-                console.log("Save successful.");
-            }
-            catch (err) {
-                console.log(err);
-            }
         }
-        else if (fileObject.thumb) {
-            let scene = fileObject;
-            if (scene.thumb.startsWith(desiredThumbPath)) {
-                continue;
-            }
-            fileModfied = true;
-            console.log(`Modifying scene '${scene.name}'...`);
-            console.log(`   Old Path: '${scene.thumb}'`);
-            let newPath = desiredThumbPath + scene.thumb.split('/').pop();
+        else if (fileObject.thumb && !fileObject.thumb.startsWith(desiredThumbPath)) {
+            console.log(`Modifying scene '${fileObject.name}'...`);
+            console.log(`   Old Path: '${fileObject.thumb}'`);
+            let newPath = desiredThumbPath + fileObject.thumb.split('/').pop();
             console.log(`   New Path: '${newPath}'`);
-            scene.thumb = newPath;
+            fileObject.thumb = newPath;
         }
-        //console.log(fileObject.scenes.map(s => ({ "thumb": s.thumb })));
+        try {
+            await fs.writeFile(filePath, JSON.stringify(fileObject, null, 2));
+            console.log("Save successful.");
+        }
+        catch (err) {
+            console.log(err);
+        }
     }
 
 
