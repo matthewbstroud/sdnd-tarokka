@@ -1,6 +1,6 @@
 {
   "name": "sdnd-tarokka",
-  "version": "11.1.8",
+  "version": "11.1.9",
   "description": "Tarokka Module",
   "main": "module.json",
   "scripts": {

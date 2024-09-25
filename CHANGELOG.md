@@ -1,3 +1,6 @@
+# V11.1.9
+# New Features
+- Support for DND5e 3.3.1
 # v11.1.8
 # Bug Fixes
 - Fix Shepherd card.

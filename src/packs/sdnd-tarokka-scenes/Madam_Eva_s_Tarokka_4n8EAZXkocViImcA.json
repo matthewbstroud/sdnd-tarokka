@@ -72,10 +72,10 @@
   "journalEntryPage": null,
   "_stats": {
     "systemId": "dnd5e",
-    "systemVersion": "2.1.5",
-    "coreVersion": "10.291",
+    "systemVersion": "3.2.1",
+    "coreVersion": "11.315",
     "createdTime": 1685327644309,
-    "modifiedTime": 1685327644309,
+    "modifiedTime": 1727307341564,
     "lastModifiedBy": "6yhz13iFYYklKtgA"
   },
   "active": false,
