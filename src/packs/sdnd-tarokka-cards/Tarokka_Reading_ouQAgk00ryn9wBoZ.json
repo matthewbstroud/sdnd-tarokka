@@ -21,10 +21,12 @@
   "_stats": {
     "systemId": "dnd5e",
     "systemVersion": "2.1.5",
-    "coreVersion": "10.291",
+    "coreVersion": "12.331",
     "createdTime": 1685307319202,
     "modifiedTime": 1685307439686,
-    "lastModifiedBy": "6yhz13iFYYklKtgA"
+    "lastModifiedBy": "6yhz13iFYYklKtgA",
+    "compendiumSource": "Cards.XzwYQp6cLrDBWb2q",
+    "duplicateSource": null
   },
   "folder": null,
   "sort": 0,
