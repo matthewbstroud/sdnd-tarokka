@@ -1,3 +1,6 @@
+# v12.4.0
+# New Features
+- Support for DnD5e v4
 # V12.0.0
 # New Features
 - Support for Foundry V12
