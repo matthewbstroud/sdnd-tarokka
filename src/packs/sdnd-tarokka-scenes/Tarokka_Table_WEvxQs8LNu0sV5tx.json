@@ -39,9 +39,7 @@
   "weather": "",
   "flags": {
     "token-attacher": {},
-    "core": {
-      "sourceId": "Scene.WjjDWPDhxWTVSBHQ"
-    }
+    "core": {}
   },
   "ownership": {
     "default": 0,
@@ -65,12 +63,13 @@
   "_stats": {
     "systemId": "dnd5e",
     "systemVersion": "3.3.1",
-    "coreVersion": "12.331",
+    "coreVersion": "13.351",
     "createdTime": 1685327573120,
     "modifiedTime": 1730039996364,
     "lastModifiedBy": "6yhz13iFYYklKtgA",
     "compendiumSource": "Scene.WjjDWPDhxWTVSBHQ",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "active": false,
   "folder": null,

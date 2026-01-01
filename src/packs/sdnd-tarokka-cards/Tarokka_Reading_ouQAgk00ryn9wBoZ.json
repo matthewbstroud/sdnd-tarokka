@@ -14,19 +14,18 @@
     "6yhz13iFYYklKtgA": 3
   },
   "flags": {
-    "core": {
-      "sourceId": "Cards.XzwYQp6cLrDBWb2q"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "dnd5e",
     "systemVersion": "2.1.5",
-    "coreVersion": "12.331",
+    "coreVersion": "13.351",
     "createdTime": 1685307319202,
     "modifiedTime": 1685307439686,
     "lastModifiedBy": "6yhz13iFYYklKtgA",
     "compendiumSource": "Cards.XzwYQp6cLrDBWb2q",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "folder": null,
   "sort": 0,

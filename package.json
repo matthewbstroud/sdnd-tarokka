@@ -1,6 +1,6 @@
 {
   "name": "sdnd-tarokka",
-  "version": "12.4.0",
+  "version": "13.5.0",
   "description": "Tarokka Module",
   "main": "module.json",
   "scripts": {
@@ -16,6 +16,6 @@
   "author": "Matthew B Stroud",
   "license": "MIT",
   "dependencies": {
-    "@foundryvtt/foundryvtt-cli": "^1.0.2"
+    "@foundryvtt/foundryvtt-cli": "^3.0.0"
   }
 }
