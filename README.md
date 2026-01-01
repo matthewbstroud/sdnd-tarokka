@@ -4,8 +4,8 @@ Provides premade decks and scenes to easily do randomized Tarokka readings in yo
 # Required Modules  
 | Module | Verified Version |  
 | --- | --- |  
-| Monk's Active Tile Triggers | 10.15 |  
-| Socket Lib | 1.0.12 |  
-| Stroud's DnD Helpers | 11.4.0 |  
+| Monk's Active Tile Triggers | 13.06 |  
+| Socket Lib | 1.1.3 |  
+| Stroud's DnD Helpers | 13.5.0 |  
   
 

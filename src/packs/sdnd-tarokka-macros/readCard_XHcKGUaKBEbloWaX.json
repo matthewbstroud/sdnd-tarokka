@@ -13,9 +13,7 @@
     "combat-utility-belt": {
       "macroTrigger": ""
     },
-    "core": {
-      "sourceId": "Macro.rprgKHZjMVx0ncVv"
-    }
+    "core": {}
   },
   "ownership": {
     "default": 0,
@@ -24,12 +22,13 @@
   "_stats": {
     "systemId": "dnd5e",
     "systemVersion": "2.1.5",
-    "coreVersion": "12.331",
+    "coreVersion": "13.351",
     "createdTime": 1685330428416,
     "modifiedTime": 1685330428416,
     "lastModifiedBy": "6yhz13iFYYklKtgA",
     "compendiumSource": "Macro.rprgKHZjMVx0ncVv",
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "folder": null,
   "sort": 0,
